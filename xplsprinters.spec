@@ -1,6 +1,6 @@
 Name: xplsprinters
 Version: 1.0.1
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: Shows a list of Xprint printers and it's attributes
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
@@ -13,7 +13,9 @@ BuildRequires: libxprintutil-devel >= 1.0.1
 BuildRequires: x11-util-macros >= 1.0.1
 
 %description
-CHECK
+Xplsprinters is a utility for Xprint, the printing system for the X Window
+system.  It can deliver both a list of printers and attributes supported for a
+specific list of printers.
 
 %prep
 %setup -q -n %{name}-%{version}
