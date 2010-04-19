@@ -1,6 +1,6 @@
 Name: xplsprinters
 Version: 1.0.1
-Release: %mkrel 9
+Release: %mkrel 10
 Summary: Shows a list of Xprint printers and it's attributes
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
