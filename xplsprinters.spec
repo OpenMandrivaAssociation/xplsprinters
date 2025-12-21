@@ -6,6 +6,11 @@ Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License: MIT
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: pkgconfig(x11) >= 1.0.0
 BuildRequires: libxp-devel >= 1.0.0
 BuildRequires: libxprintutil-devel >= 1.0.1
